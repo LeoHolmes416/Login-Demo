@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:03 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:03 +0800] "GET /request-demo/ HTTP/1.1" 304 - http-bio-80-exec-3 16
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:03 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-80-exec-4 0
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:07 +0800] "GET /request-demo/selectAllServlet HTTP/1.1" 200 2794 http-bio-80-exec-5 959
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:11 +0800] "GET /request-demo/addBrand.jsp HTTP/1.1" 200 633 http-bio-80-exec-6 5
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:18 +0800] "GET /request-demo/selectByIdServlet?id=1 HTTP/1.1" 200 727 http-bio-80-exec-7 41
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:26 +0800] "GET /request-demo/selectByIdServlet?id=1 HTTP/1.1" 200 727 http-bio-80-exec-8 2
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:33 +0800] "POST /request-demo/addServlet HTTP/1.1" 302 - http-bio-80-exec-9 9
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:33 +0800] "GET /request-demo/selectAllServlet HTTP/1.1" 200 3215 http-bio-80-exec-10 3
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:37 +0800] "GET /request-demo/selectByIdServlet?id=1 HTTP/1.1" 200 727 http-bio-80-exec-10 3
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:40 +0800] "POST /request-demo/addServlet HTTP/1.1" 302 - http-bio-80-exec-10 3
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:40 +0800] "GET /request-demo/selectAllServlet HTTP/1.1" 200 3636 http-bio-80-exec-4 5
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:12:47 +0800] "GET /request-demo/selectByIdServlet?id=1 HTTP/1.1" 200 727 http-bio-80-exec-4 3
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:25:37 +0800] "GET /request-demo/addBrand.jsp HTTP/1.1" 200 633 http-bio-80-exec-7 1
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:26:11 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Dec/2023:17:26:13 +0800] "GET /request-demo/selectAllServlet HTTP/1.1" 200 3636 http-bio-80-exec-3 429
