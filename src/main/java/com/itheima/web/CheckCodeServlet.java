@@ -16,6 +16,10 @@ public class CheckCodeServlet extends HttpServlet {
         ServletOutputStream os = response.getOutputStream();
         //2.显示图片，并得到验证码数据字符串
         String checkCode = CheckCodeUtil.outputVerifyImage(100,50, os ,4);
+
+        //存入session
+        HttpSession session = request.getSession();
+        session.setAttribute("checkCodeGen",checkCode);
     }
 
     @Override

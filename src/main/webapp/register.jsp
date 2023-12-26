@@ -48,8 +48,8 @@
                 <td>验证码</td>
                 <td class="inputs">
                     <input name="checkCode" type="text" id="checkCode">
-                    <img src="/request-demo/checkCodeServlet">
-                    <a href="#" id="changeImg">看不清？</a>
+                    <img id = "checkCodeImg" src="/request-demo/checkCodeServlet">
+                    <a href="#" id="changeImg" >看不清？</a>
                 </td>
             </tr>
 
@@ -62,5 +62,11 @@
     </form>
 
 </div>
+<script>
+    document.getElementById("changeImg").onclick = function (){
+        <!--重设图片,为了防止浏览器缓存，加上时间戳来用作新图片的路径-->
+        document.getElementById("checkCodeImg").src = "/request-demo/checkCodeServlet?"+new Date().getMilliseconds();
+    }
+</script>
 </body>
 </html>
