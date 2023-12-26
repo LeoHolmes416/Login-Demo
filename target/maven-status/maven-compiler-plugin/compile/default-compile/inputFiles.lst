@@ -3,9 +3,11 @@ D:\code\LoginDemo\src\main\java\com\itheima\web\AddServlet.java
 D:\code\LoginDemo\src\main\java\com\itheima\web\DelByIdServlet.java
 D:\code\LoginDemo\src\main\java\com\itheima\pojo\Brand.java
 D:\code\LoginDemo\src\main\java\com\itheima\mapper\BrandMapper.java
+D:\code\LoginDemo\src\main\java\com\itheima\web\CheckCodeServlet.java
 D:\code\LoginDemo\src\main\java\com\itheima\pojo\User.java
 D:\code\LoginDemo\src\main\java\com\itheima\util\SqlSessionFactoryUtils.java
 D:\code\LoginDemo\src\main\java\com\itheima\web\RegisterServlet.java
+D:\code\LoginDemo\src\main\java\com\itheima\util\CheckCodeUtil.java
 D:\code\LoginDemo\src\main\java\com\itheima\mapper\UserMapper.java
 D:\code\LoginDemo\src\main\java\com\itheima\service\BrandService.java
 D:\code\LoginDemo\src\main\java\com\itheima\web\LoginServlet.java
