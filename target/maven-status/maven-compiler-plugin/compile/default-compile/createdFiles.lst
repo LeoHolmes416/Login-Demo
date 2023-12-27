@@ -1,5 +1,6 @@
 com\itheima\web\UpdateServlet.class
 com\itheima\web\CheckCodeServlet.class
+com\itheima\web\filter\LoginFilter.class
 com\itheima\pojo\User.class
 com\itheima\service\UserService.class
 com\itheima\util\SqlSessionFactoryUtils.class

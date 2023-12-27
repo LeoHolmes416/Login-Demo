@@ -5,6 +5,7 @@ D:\code\LoginDemo\src\main\java\com\itheima\pojo\Brand.java
 D:\code\LoginDemo\src\main\java\com\itheima\mapper\BrandMapper.java
 D:\code\LoginDemo\src\main\java\com\itheima\web\CheckCodeServlet.java
 D:\code\LoginDemo\src\main\java\com\itheima\pojo\User.java
+D:\code\LoginDemo\src\main\java\com\itheima\web\filter\LoginFilter.java
 D:\code\LoginDemo\src\main\java\com\itheima\util\SqlSessionFactoryUtils.java
 D:\code\LoginDemo\src\main\java\com\itheima\web\RegisterServlet.java
 D:\code\LoginDemo\src\main\java\com\itheima\util\CheckCodeUtil.java

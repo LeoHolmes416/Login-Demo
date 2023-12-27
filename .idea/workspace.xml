@@ -9,16 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3afe407-3756-464a-9603-3f081f88a1b2" name="Changes" comment="第一次提交到本地仓库">
+    <list default="true" id="d3afe407-3756-464a-9603-3f081f88a1b2" name="Changes" comment="验证码刷新">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc6652b6-5625-4edc-b05e-2b36f6c2b18d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc6652b6-5625-4edc-b05e-2b36f6c2b18d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/web/CheckCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/web/CheckCodeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/web/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/web/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/web/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/SESSIONS.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/org/apache/jsp/register_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/org/apache/jsp/register_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/org/apache/jsp/register_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/request-demo/org/apache/jsp/register_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +95,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   },
@@ -152,6 +151,7 @@
       <workItem from="1703465115943" duration="15803000" />
       <workItem from="1703521409112" duration="5684000" />
       <workItem from="1703551947437" duration="9919000" />
+      <workItem from="1703637747003" duration="11705000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交到本地仓库">
       <created>1703526086244</created>
@@ -177,7 +177,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
